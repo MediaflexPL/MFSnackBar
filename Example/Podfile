@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JDSnackBar_Example' do
+  pod 'JDSnackBar', :path => '../'
+
+  target 'JDSnackBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
