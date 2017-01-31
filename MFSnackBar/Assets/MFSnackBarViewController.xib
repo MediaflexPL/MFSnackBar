@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11762"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MFSnackBarViewController" customModule="MFSnackBar" customModuleProvider="target">
+            <connections>
+                <outlet property="snackBarView" destination="i5M-Pr-FkT" id="gml-hM-DwR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="MFSnackBarView" customModule="MFSnackBar">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="43"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bXP-p8-nGp" customClass="UIVisualEffectView">
+                    <rect key="frame" x="0.0" y="0.0" width="280" height="43"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="bXP-p8-nGp" secondAttribute="trailing" id="129-Cj-Rcf"/>
+                <constraint firstAttribute="bottom" secondItem="bXP-p8-nGp" secondAttribute="bottom" id="1ka-oI-Jzh"/>
+                <constraint firstItem="bXP-p8-nGp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5R9-ms-urE"/>
+                <constraint firstItem="bXP-p8-nGp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="mq4-EL-zjm"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="4"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="blurView" destination="bXP-p8-nGp" id="qBd-Y6-N0e"/>
+            </connections>
+            <point key="canvasLocation" x="-14" y="-311.5"/>
+        </view>
+    </objects>
+</document>

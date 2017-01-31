@@ -1,0 +1,20 @@
+PODS:
+  - MFSnackBar (0.1.0):
+    - SteviaLayout (~> 3.0)
+  - SteviaLayout (3.0.2)
+
+DEPENDENCIES:
+  - MFSnackBar (from `../`)
+  - SteviaLayout
+
+EXTERNAL SOURCES:
+  MFSnackBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MFSnackBar: 4caf1e1e39015faf1d81b3c1c33932f08b0d7bb9
+  SteviaLayout: f4848211592409c29971307fdc741151ebc34b88
+
+PODFILE CHECKSUM: 9883f8b14501569ba18bb8f337fc9f48c49e150b
+
+COCOAPODS: 1.2.0.beta.3

@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		421BE035D43671A6C6EB411A /* Pods_JDSnackBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6283EEF4664C3565F76958F /* Pods_JDSnackBar_Tests.framework */; };
+		421BE035D43671A6C6EB411A /* Pods_MFSnackBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6283EEF4664C3565F76958F /* Pods_MFSnackBar_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		AF987CE4978F01F403FE6E90 /* Pods_JDSnackBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A9BCF6C9F2A8178C5BAE91 /* Pods_JDSnackBar_Example.framework */; };
+		AF987CE4978F01F403FE6E90 /* Pods_MFSnackBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A9BCF6C9F2A8178C5BAE91 /* Pods_MFSnackBar_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,30 +23,30 @@
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = JDSnackBar;
+			remoteInfo = MFSnackBar;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01A9BCF6C9F2A8178C5BAE91 /* Pods_JDSnackBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDSnackBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		252F8EEA299D689321B5151E /* Pods-JDSnackBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDSnackBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDSnackBar_Tests/Pods-JDSnackBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* JDSnackBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDSnackBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A9BCF6C9F2A8178C5BAE91 /* Pods_MFSnackBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFSnackBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		252F8EEA299D689321B5151E /* Pods-MFSnackBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFSnackBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MFSnackBar_Tests/Pods-MFSnackBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* MFSnackBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFSnackBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* JDSnackBar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDSnackBar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* MFSnackBar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFSnackBar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7C0F863E8B7A2915ACEBEE10 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		81B30A47A0D6AC0834531A72 /* Pods-JDSnackBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDSnackBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDSnackBar_Example/Pods-JDSnackBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		98B844AC09CD5C904F7B0EC2 /* JDSnackBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JDSnackBar.podspec; path = ../JDSnackBar.podspec; sourceTree = "<group>"; };
-		AF1EBD618CE45E4F5A380997 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C6283EEF4664C3565F76958F /* Pods_JDSnackBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDSnackBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE272004FCB1E82D49AE2CA2 /* Pods-JDSnackBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDSnackBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDSnackBar_Tests/Pods-JDSnackBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CF2E7AAA2F3C4E9F2975EE16 /* Pods-JDSnackBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDSnackBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDSnackBar_Example/Pods-JDSnackBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7C0F863E8B7A2915ACEBEE10 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		81B30A47A0D6AC0834531A72 /* Pods-MFSnackBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFSnackBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MFSnackBar_Example/Pods-MFSnackBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		98B844AC09CD5C904F7B0EC2 /* MFSnackBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MFSnackBar.podspec; path = ../MFSnackBar.podspec; sourceTree = "<group>"; };
+		AF1EBD618CE45E4F5A380997 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C6283EEF4664C3565F76958F /* Pods_MFSnackBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFSnackBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE272004FCB1E82D49AE2CA2 /* Pods-MFSnackBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFSnackBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MFSnackBar_Tests/Pods-MFSnackBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF2E7AAA2F3C4E9F2975EE16 /* Pods-MFSnackBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFSnackBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MFSnackBar_Example/Pods-MFSnackBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF987CE4978F01F403FE6E90 /* Pods_JDSnackBar_Example.framework in Frameworks */,
+				AF987CE4978F01F403FE6E90 /* Pods_MFSnackBar_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				421BE035D43671A6C6EB411A /* Pods_JDSnackBar_Tests.framework in Frameworks */,
+				421BE035D43671A6C6EB411A /* Pods_MFSnackBar_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +72,8 @@
 		3804AF7741967FB7B2B197BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				01A9BCF6C9F2A8178C5BAE91 /* Pods_JDSnackBar_Example.framework */,
-				C6283EEF4664C3565F76958F /* Pods_JDSnackBar_Tests.framework */,
+				01A9BCF6C9F2A8178C5BAE91 /* Pods_MFSnackBar_Example.framework */,
+				C6283EEF4664C3565F76958F /* Pods_MFSnackBar_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for JDSnackBar */,
+				607FACD21AFB9204008FA782 /* Example for MFSnackBar */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				C6CF05EA02FD2671C0B1C7A3 /* Pods */,
@@ -93,13 +93,13 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* JDSnackBar_Example.app */,
-				607FACE51AFB9204008FA782 /* JDSnackBar_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* MFSnackBar_Example.app */,
+				607FACE51AFB9204008FA782 /* MFSnackBar_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for JDSnackBar */ = {
+		607FACD21AFB9204008FA782 /* Example for MFSnackBar */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -109,8 +109,8 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for JDSnackBar";
-			path = JDSnackBar;
+			name = "Example for MFSnackBar";
+			path = MFSnackBar;
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
@@ -141,7 +141,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				98B844AC09CD5C904F7B0EC2 /* JDSnackBar.podspec */,
+				98B844AC09CD5C904F7B0EC2 /* MFSnackBar.podspec */,
 				AF1EBD618CE45E4F5A380997 /* README.md */,
 				7C0F863E8B7A2915ACEBEE10 /* LICENSE */,
 			);
@@ -151,10 +151,10 @@
 		C6CF05EA02FD2671C0B1C7A3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CF2E7AAA2F3C4E9F2975EE16 /* Pods-JDSnackBar_Example.debug.xcconfig */,
-				81B30A47A0D6AC0834531A72 /* Pods-JDSnackBar_Example.release.xcconfig */,
-				CE272004FCB1E82D49AE2CA2 /* Pods-JDSnackBar_Tests.debug.xcconfig */,
-				252F8EEA299D689321B5151E /* Pods-JDSnackBar_Tests.release.xcconfig */,
+				CF2E7AAA2F3C4E9F2975EE16 /* Pods-MFSnackBar_Example.debug.xcconfig */,
+				81B30A47A0D6AC0834531A72 /* Pods-MFSnackBar_Example.release.xcconfig */,
+				CE272004FCB1E82D49AE2CA2 /* Pods-MFSnackBar_Tests.debug.xcconfig */,
+				252F8EEA299D689321B5151E /* Pods-MFSnackBar_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -162,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* JDSnackBar_Example */ = {
+		607FACCF1AFB9204008FA782 /* MFSnackBar_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "JDSnackBar_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MFSnackBar_Example" */;
 			buildPhases = (
 				4BE6338D645677E696EB95D4 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -177,14 +177,14 @@
 			);
 			dependencies = (
 			);
-			name = JDSnackBar_Example;
-			productName = JDSnackBar;
-			productReference = 607FACD01AFB9204008FA782 /* JDSnackBar_Example.app */;
+			name = MFSnackBar_Example;
+			productName = MFSnackBar;
+			productReference = 607FACD01AFB9204008FA782 /* MFSnackBar_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* JDSnackBar_Tests */ = {
+		607FACE41AFB9204008FA782 /* MFSnackBar_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "JDSnackBar_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MFSnackBar_Tests" */;
 			buildPhases = (
 				B603CB25BEC77E3037FE0682 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
@@ -198,9 +198,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = JDSnackBar_Tests;
+			name = MFSnackBar_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* JDSnackBar_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* MFSnackBar_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -210,19 +210,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = CG6APMEB37;
+						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = CG6APMEB37;
+						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "JDSnackBar" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MFSnackBar" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -235,8 +239,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* JDSnackBar_Example */,
-				607FACE41AFB9204008FA782 /* JDSnackBar_Tests */,
+				607FACCF1AFB9204008FA782 /* MFSnackBar_Example */,
+				607FACE41AFB9204008FA782 /* MFSnackBar_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -274,7 +278,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDSnackBar_Example/Pods-JDSnackBar_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFSnackBar_Example/Pods-MFSnackBar_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3D13FED5FEEB347B2A1EB216 /* [CP] Embed Pods Frameworks */ = {
@@ -289,7 +293,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDSnackBar_Tests/Pods-JDSnackBar_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFSnackBar_Tests/Pods-MFSnackBar_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4BE6338D645677E696EB95D4 /* [CP] Check Pods Manifest.lock */ = {
@@ -319,7 +323,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDSnackBar_Tests/Pods-JDSnackBar_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFSnackBar_Tests/Pods-MFSnackBar_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B603CB25BEC77E3037FE0682 /* [CP] Check Pods Manifest.lock */ = {
@@ -349,7 +353,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDSnackBar_Example/Pods-JDSnackBar_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFSnackBar_Example/Pods-MFSnackBar_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -377,7 +381,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* JDSnackBar_Example */;
+			target = 607FACCF1AFB9204008FA782 /* MFSnackBar_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -415,8 +419,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -439,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -460,8 +466,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -477,43 +485,51 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF2E7AAA2F3C4E9F2975EE16 /* Pods-JDSnackBar_Example.debug.xcconfig */;
+			baseConfigurationReference = CF2E7AAA2F3C4E9F2975EE16 /* Pods-MFSnackBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = JDSnackBar/Info.plist;
+				DEVELOPMENT_TEAM = CG6APMEB37;
+				INFOPLIST_FILE = MFSnackBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81B30A47A0D6AC0834531A72 /* Pods-JDSnackBar_Example.release.xcconfig */;
+			baseConfigurationReference = 81B30A47A0D6AC0834531A72 /* Pods-MFSnackBar_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = JDSnackBar/Info.plist;
+				DEVELOPMENT_TEAM = CG6APMEB37;
+				INFOPLIST_FILE = MFSnackBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE272004FCB1E82D49AE2CA2 /* Pods-JDSnackBar_Tests.debug.xcconfig */;
+			baseConfigurationReference = CE272004FCB1E82D49AE2CA2 /* Pods-MFSnackBar_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = CG6APMEB37;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -526,13 +542,16 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MFSnackBar_Example.app/MFSnackBar_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 252F8EEA299D689321B5151E /* Pods-JDSnackBar_Tests.release.xcconfig */;
+			baseConfigurationReference = 252F8EEA299D689321B5151E /* Pods-MFSnackBar_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = CG6APMEB37;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -541,13 +560,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MFSnackBar_Example.app/MFSnackBar_Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "JDSnackBar" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MFSnackBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -556,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "JDSnackBar_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MFSnackBar_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -565,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "JDSnackBar_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MFSnackBar_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

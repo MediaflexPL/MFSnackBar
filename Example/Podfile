@@ -1,9 +1,10 @@
+platform :ios, '9.0'
 use_frameworks!
 
-target 'JDSnackBar_Example' do
-  pod 'JDSnackBar', :path => '../'
-
-  target 'JDSnackBar_Tests' do
+target 'MFSnackBar_Example' do
+  pod 'MFSnackBar', :path => '../'
+  pod 'SteviaLayout'
+  target 'MFSnackBar_Tests' do
     inherit! :search_paths
 
     
