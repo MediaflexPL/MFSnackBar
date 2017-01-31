@@ -77,7 +77,6 @@ public class MFSnackBarViewController: UIViewController {
             snackBarConfigurator?.configure(snackBarView: snackBarView)
             snackBarView.configureView()
             
-            var bottomConstraint : NSLayoutConstraint?
             if !isLayedOut {
                 
                 destinationView.sv(snackBarView)
@@ -96,13 +95,8 @@ public class MFSnackBarViewController: UIViewController {
             
             snackBarWindow.isHidden = false
             
-//            if let constraint = bottomConstraint {
-//                destinationView.removeConstraint(constraint)
-//                view.top(snackBarView.topMargin)
-//            } else {
-                snackBarView.topConstraint?.constant = snackBarView.topMargin
-//            }
-//            
+            snackBarView.topConstraint?.constant = snackBarView.topMargin
+
             if animated {
                 UIView.animate(withDuration: duration, delay: 0.0, options: [.curveEaseOut], animations: {
                     destinationView.layoutIfNeeded()

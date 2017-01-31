@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MFSnackBar'
-  s.version          = '0.1.0'
-  s.summary          = 'Small notifications loosely based on iOS banner notifications and Android's snackbar'
+  s.version          = '0.1.1'
+  s.summary          = 'Small notifications loosely based on iOS banner notifications and Android\'s snackbar'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
